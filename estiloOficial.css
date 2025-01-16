@@ -36,12 +36,16 @@ a{
   margin-left: 5%;
   margin-top: 5%;
   text-align: center;
-  font-size: 27px;
+  font-size: 50px;
   color: black;
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Roboto Condensed", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  max-width: 400px;
 
   @media (max-width: 768px) {
-    font-size: 17px;
+    font-size: 50px;
   }
 }
 
@@ -56,6 +60,8 @@ ul > li {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 500;
   color: black;
+  max-width: 800px;
+  text-align: justify;
 
   @media (max-width: 768px) {
     font-size: 20px;
@@ -69,6 +75,8 @@ ul > li {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 500;
   color: white;
+  max-width: 800px;
+  text-align: justify;
 
   @media (max-width: 768px) {
     font-size: 20px;
@@ -106,12 +114,16 @@ ul > li {
   margin-left: 5%;
   margin-top: 5%;
   text-align: center;
-  font-size: 27px;
+  font-size: 50px;
   color: white;
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Roboto Condensed", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  max-width: 400px;
 
   @media (max-width: 768px) {
-    font-size: 19px;
+    font-size: 50px;
   }
 }
 .negrita{
@@ -119,12 +131,16 @@ ul > li {
 }
 
 .ache1_2 {
-  font-size: 45px;
+  font-size: 50px;
   color: white;
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Roboto Condensed", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  max-width: 400px;
 
   @media (max-width: 768px) {
-    font-size: 30px;
+    font-size: 50px;
   }
 }
 
@@ -342,11 +358,55 @@ ul > li {
   text-align: center;
 }
 
+.navbar-nav{
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-right: 0px;
+  width: 350px;
+}
+.nav-item{
+  margin-right: 60px;
+  max-width: 200px;
+}
+
 /*---------------*/
 
 
 
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+.play-regular {
+  font-family: "Play", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.play-bold {
+  font-family: "Play", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+.roboto-condensed {
+  font-family: "Roboto Condensed", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.textoCompleto{
+  font-family: "Play", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+#titulo{
+  font-family: "Roboto Condensed", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  max-width: 400px;
+}
 
 * {
   box-sizing: border-box;
