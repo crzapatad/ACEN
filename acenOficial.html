@@ -13,12 +13,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/ddde7dc21b.js" crossorigin="anonymous"></script>
+  <link rel="icon" href="logoBlanco.png" type="image/x-icon">
+  <link rel="shortcut icon" href="logoBlanco.png" type="image/x-icon">
 </head>
 
 
 <body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid ">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <div class="container-fluid">
       <img src="sinfondoo.png" width="150" height="80">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,7 +30,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#quienes-somos">Quiénes somos</a>
+            <a class="nav-link" href="#quienes-somos">Nosotros</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#vision">Visión</a>
@@ -49,18 +52,19 @@
   <!-- Sección Quiénes Somos -->
   <div id="avanzando" class="seccion">
     <h1 id="titulo"></h1>
-    <img src="image (6).png" width="400px">
+    <img src="image (6).png" class="circuit-img" width="500px">
   </div>
 
 
   <div id="quienes-somos" class="seccion2">
     <h1 class="ache1">Quiénes Somos</h1>
-    <p class="pe1">La Fundación ACEN es una organización sin fines de lucro
-      enfocada en favorecer el conocimiento, la prevención y el tratamiento
-      de enfermedades neuropsiquiátricas, lo cual es llevado a cabo
-      mediante el financiamiento de proyectos de investigación, y difundiendo a la sociedad
+    <p class="pe1">
+      La Fundación ACEN es una organización sin fines de lucro  
+      <span class="highlight">enfocada en favorecer el conocimiento, la prevención y el tratamiento de enfermedades neuropsiquiátricas</span>, 
+      lo cual es llevado a cabo mediante el financiamiento de proyectos de investigación, y difundiendo a la sociedad
       conocimiento relacionado con estas patologías.
     </p>
+    
     <div id="img_zyro">
       <img src="cerebrocruzz.gif" width="350px">
     </div>
@@ -69,11 +73,10 @@
   <!-- Sección Objetivo -->
   <div id="vision" class="seccion2">
     <h1 class="ache1_1">Nuestra visión</h1>
-    <p class="pe1_1">Creemos que es fundamental mejorar la calidad de vidas de
-      las personas con patologías mentales y de sus familias, y favorecer de manera
-      significativa el desarrollo pleno de estas personas. Para esto, es necesario
-      educar a la sociedad de manera adecuada y apoyar el desarrollo científico
-      y tecnológico de la investigación asociada a las patologías siquiátricas y neurológicas.
+    <p class="pe1_1">Creemos que es fundamental <span class="highlight">mejorar la calidad de vida de las personas con patologías mentales y de sus familias, 
+      y favorecer de manera significativa el desarrollo pleno de estas personas</span>. 
+      Para esto, es necesario educar a la sociedad de manera adecuada y apoyar el desarrollo científico y tecnológico de la investigación 
+      asociada a las patologías siquiátricas y neurológicas.
     </p>
     <div id="img_zyro">
       <img src="brain2.png" width="350px">
@@ -82,155 +85,20 @@
 
   <div id="mision" class="seccion2">
     <h1 class="ache1_1">Nuestra misión</h1>
-    <p class="pe1_1">Creemos que es fundamental mejorar la calidad de vidas de
-      las personas con patologías mentales y de sus familias, y favorecer
-      de manera significativa el desarrollo pleno de estas personas.
-      Para esto, es necesario educar a la sociedad de manera adecuada y
-      apoyar el desarrollo científico y tecnológico de la investigación
-      asociada a las patologías siquiátricas y neurológicas.</p>
+    <p class="pe1_1">La Fundación ACEN está comprometida en otorgar financiamiento que <span class="highlight"> conducirá a avances e innovaciones en la investigación de enfermedades neuropsiquátricas </span> y en la construcción de una sociedad más equitativa e inclusiva a través de la difusión para la comunidad.</p>
 
-      <img src="neurociencia.jpg" width ="300px">
+    <img src="neurociencia.jpg" class="neuro-img" width="300px">
   </div>
 
- <!--  <div id="miembros" class="seccion2">
-    <h1 class="ache1">Directiva</h1>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-4">
-           
-        </div>
-        <div class="col-md-4">
-          <img src="Georr.jpeg" class="foto" alt="Georgina Renard" data-bs-toggle="modal"
-            data-bs-target="#exampleModal"
-            style="cursor: pointer; transform: scale(1); transition: transform 1s ease-in-out;">
-            <p><strong>Georgina Renard</strong></p>
-            <div>Bióloga y Presidente Fundación ACEN</div>
-        </div>
-        <div class="col-md-4">
-
-        </div>
-      </div>
-    </div>
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5" id="exampleModalLabel">Georgina Renard</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <img src="Georr.jpeg" class="modal-image" alt="Georgina Renard"
-              style="transform: scale(1); transition: transform 1s ease-in-out;">
-            Bióloga y Doctora en Ciencias Biológicas. Presidenta Fundación ACEN.
-            “A finales de mi carrera de grado me dediqué a estudiar el sistema nervioso central y hoy trabajo
-            en neurofarmacología y conducta. Creo que lo que lo que determinó mi carrera fue mi familia, en
-            particular mi hermano que tiene esquizofrenia paranoide. Eso ha sido lo mismo que motivó a crear
-            esta Fundación para seguir aportando al conocimiento de los distintos desórdenes del sistema
-            nervioso central y lograr mejorar la calidad de vida de muchas familias."
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-4">
-             
-          </div>
-          <div class="col-md-4">
-            <img src="Fran.JPG" class="foto" alt="Francisca Cornejo" data-bs-toggle="modal"
-            data-bs-target="#exampleModal2" style="cursor: pointer; transform: scale(1); 
-            transition: transform 1s ease-in-out;"> 
-            <p><strong>Francisca Cornejo</strong></p>
-            <div>Bioquímica y Secretaria Fundación ACEN</div>
-          </div>
-          <div class="col-md-4">
-  
-          </div>
-        </div>
-      </div>
-    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5" id="exampleModalLabel">Francisca Cornejo</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <img src="Fran.JPG" class="modal-image" alt="Francisca Cornejo"
-              style="transform: scale(1); transition: transform 1s ease-in-out;">
-            Bioquímica y Doctora en Ciencias Médicas. Secretaria Fundación ACEN.
-            "Desde el inicio de mi carrera me he dedicado a entender el cerebro y hoy trabajo en distintas
-            patologías asociadas al neurodesarrollo y al envejecimiento. Mi principal motivación para crear
-            esta fundación fue contribuir al desarrollo de una sociedad más justa, especialmente en el acceso
-            a recursos para estudiar las patologías del cerebro. Creo que a través de la Fundación ACEN,
-            lograremos acercar el conocimiento del cerebro a toda la sociedad y además contribuiremos al
-            crecimiento de la investigación en las enfermedades neuropsiquiátricas".
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-          </div>
-        </div>
-      </div>
-    </div>
 
 
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-4">
-           
-        </div>
-        <div class="col-md-4">
-          <img src="katia2.jpeg" class="foto" alt="Katia Gysling" data-bs-toggle="modal"
-          data-bs-target="#exampleModal3" 
-          style="cursor: pointer; transform: scale(1); transition: transform 1s ease-in-out;">  
-          <p><strong>Katia Gysling</strong></p>
-          <div>Bioquímica y Doctora en Farmacología. Tesorera Fundación ACEN</div>
-        </div>
-        <div class="col-md-4">
-
-        </div>
-      </div>
-    </div>
-  <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Katia Gysling</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <img src="katia.jpeg" class="modal-image" alt="Katia Gysling"
-            style="transform: scale(1); transition: transform 1s ease-in-out;">
-            Bioquímica y Doctora en farmacología. Tesorera Fundación ACEN.
-            “Desde pequeña, he estado interesada en entender cómo funciona nuestro cerebro y los cambios
-            que pueden producir las enfermedades neuropsiquiátricas. Por ello estudié Bioquímica y realicé el
-            doctorado en Farmacología.
-            Decidí formar parte de la Fundación ACEN porque pienso que aún hay mucha resistencia en nuestra 
-            sociedad para aceptar que nuestro cerebro, al igual que cualquier otro órgano, también se enferma.
-            Aquí, espero contribuir para que los enfermos del cerebro sean bien tratados y cuidados en nuestra sociedad."
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  
-
-  </div> -->
-
-  <div class="container">
+  <div id="nosotros" class="container seccion2 seccionEquipo">
 
  <br>
  <br>
- <h1 class="ache1 mb-5">Directiva</h1>
+ <h1 class="ache1 mb-5">Nuestro <span class="highlight">equipo</span></h1>
 
-  <div class="row team-row">
+  <div class="row team-row mt-5">
 
     <div class="col-md-4 col-12 team-wrap">
       <div class="team-member text-center">
@@ -239,7 +107,7 @@
           <div class="overlay">
             <div class="team-details text-center">
               <p>
-                Bióloga y Doctora en Ciencias Biológicas. Presidenta Fundación ACEN.
+                Bióloga y Doctora en Ciencias Biológicas. Presidenta Fundación ACEN.<br>
             “A finales de mi carrera de grado me dediqué a estudiar el sistema nervioso central y hoy trabajo
             en neurofarmacología y conducta. Creo que lo que lo que determinó mi carrera fue mi familia, en
             particular mi hermano que tiene esquizofrenia paranoide. Eso ha sido lo mismo que motivó a crear
@@ -252,7 +120,13 @@
         </div>
         <div class="mb-4">
           <h6 class="team-title">Georgina Renard</h6>
-          <span>Bióloga y Presidente Fundación ACEN</span>
+          <div class="social-container">
+            <ul class="social-icons">
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+        </div>
         </div>
         
       </div>
@@ -266,7 +140,7 @@
           <div class="overlay">
             <div class="team-details text-center">
               <p>
-                Bioquímica y Doctora en Ciencias Médicas. Secretaria Fundación ACEN.
+                Bioquímica y Doctora en Ciencias Médicas. Secretaria Fundación ACEN.<br>
                 "Desde el inicio de mi carrera me he dedicado a entender el cerebro y hoy trabajo en distintas
                 patologías asociadas al neurodesarrollo y al envejecimiento. Mi principal motivación para crear
                 esta fundación fue contribuir al desarrollo de una sociedad más justa, especialmente en el acceso
@@ -280,7 +154,13 @@
         </div>
         <div class="mb-4">
           <h6 class="team-title">Francisca Cornejo</h6>
-          <span>Bioquímica y Secretaria Fundación ACEN</span>
+          <div class="social-container">
+            <ul class="social-icons">
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+        </div>
         </div>
         
       </div>
@@ -294,6 +174,7 @@
           <div class="overlay">
             <div class="team-details text-center">
               <p>
+                Bioquímica y Doctora en Farmacología. Tesorera Fundación ACEN. <br>
                 “Desde pequeña, he estado interesada en entender cómo funciona nuestro cerebro y los cambios
                 que pueden producir las enfermedades neuropsiquiátricas. Por ello estudié Bioquímica y realicé el
                 doctorado en Farmacología.
@@ -306,8 +187,16 @@
           </div>
         </div>
         <h6 class="team-title">Katia Gysling</h6>
-        <span>Bioquímica y Doctora en Farmacología. Tesorera Fundación ACEN</span>
+        
+        <div class="social-container">
+          <ul class="social-icons">
+              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
       </div>
+      </div>
+        
     </div>
     <!-- end team member -->
 
@@ -321,15 +210,13 @@
 
   <div id="donaciones" class="seccion2">
     <h1 class="ache1_2">Donaciones</h1>
-    <p class="pe1_1">A través de tu aporte voluntario, estaras financiando directamente distintas iniciativas que conduciran al avance
-      e innovacion en investigación de las enfermedades neuropsiquiatricas. De esta manera, a través de nosotros estaras
-      participando de una construccion de una sociedad mas equitativa e inclusiva en cuanto a la salud mental. </p>
+    <p class="pe1_1">A través de tu aporte voluntario, estarás financiando directamente distintas iniciativas que conducirán al avance
+      e innovación en investigación de las enfermedades neuropsiquiátricas en nuestro país. Mediante tu aporte 
+      participarás en la construcción de una sociedad mas equitativa e inclusiva en cuanto a la salud mental. </p>
 
       <img src="donacionn.png" width="300px">
     <div class="bajar">
-      <button type="button" class="btn btn-primary btn-lg">
-        <a href="https://www.patreon.com/fundacionacen" >Dona aquí</a>
-      </button>
+        <a href="https://www.patreon.com/fundacionacen" class="donate-btn">Dona aquí</a>
     </div>
    
   </div>
@@ -353,10 +240,10 @@
 
 
             <img src="insta.png" width="40px">
-            <a class="negrita" color="white" href="https://www.instagram.com/fundacionacen/">Instagram</a>
+            <a class="negrita" color="white" style="text-decoration: none;" href="https://www.instagram.com/fundacionacen/">Instagram</a>
             
             <img src="facebook.png" width="40px">
-            <a class="negrita" color="white" href="https://www.facebook.com/FundacionACEN.cl/?locale=es_LA">Facebook</p>
+            <a class="negrita" color="white" style="text-decoration: none;"  href="https://www.facebook.com/FundacionACEN.cl/?locale=es_LA">Facebook</p>
           
         </div>
 
@@ -369,7 +256,7 @@
             <span>2</span>
             <span>0</span>
             <span>2</span>
-            <span>4</span>
+            <span>5</span>
           </p>
         </div>
       </div>
@@ -380,7 +267,16 @@
     </script>
 
   <script>
+
+
+
+
+
+
     document.addEventListener("DOMContentLoaded", function () {
+
+    
+
       // Función para animar el título
       function animarTitulo() {
         const titulo = document.getElementById("titulo");
@@ -400,6 +296,7 @@
       }
 
       animarTitulo();
+      
     });
     /*---------------------------------------*/
     // JavaScript para aplicar la animación cíclica a todas las fotos con la clase 'foto-animada'
@@ -416,7 +313,10 @@
 
     // Aplicar la animación cada segundo (1000 milisegundos)
     setInterval(aplicarAnimacion, 1000);
+
+    
   </script>
 </body>
+
 
 </html>
