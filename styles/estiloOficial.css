@@ -578,7 +578,7 @@ ul > li {
 .donate-btn {
   display: inline-block; /* Hace que el enlace se comporte como un bloque en línea */
   padding: 12px 30px; /* Espaciado alrededor del texto */
-  background-color: #ff6f00; /* Color de fondo anaranjado */
+  background-color: rgba(0, 255, 255, 0.8); /* Color de fondo anaranjado */
   color: white; /* Color del texto */
   text-decoration: none; /* Elimina el subrayado del enlace */
   font-size: 16px; /* Tamaño de fuente */
@@ -590,7 +590,7 @@ ul > li {
 }
 
 .donate-btn:hover {
-  background-color: #ff8c1a; /* Color de fondo ligeramente más claro cuando se pasa el ratón */
+  background-color: rgba(86, 255, 255, 0.8); /* Color de fondo ligeramente más claro cuando se pasa el ratón */
   transform: translateY(-4px); /* Eleva el botón ligeramente */
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada al pasar el ratón */
 }
@@ -683,8 +683,8 @@ ul > li {
 
 :root {
   --timing: 265ms;
-  --iconColor: #00B5F5;
-  --accent: #002A8F;
+  --iconColor: rgba(0, 255, 255, 0.8);
+  --accent: rgba(52, 97, 97, 0.8);
   --bluefade: #0043E0;
   --gradient: #00B5F5;
 }
@@ -863,4 +863,8 @@ ul > li {
 }
 
 
-
+.nombreLibro{
+  color: #000000;
+  font-size: 30px;
+  font-weight: bold;
+}
