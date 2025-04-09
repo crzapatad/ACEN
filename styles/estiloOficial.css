@@ -31,9 +31,37 @@ a{
 }
 
 /*---------*/
+.social-container {
+  opacity: 0; /* Inicialmente transparente */
+  transform: translateY(10px); /* Pequeño desplazamiento para efecto */
+  transition: all 0.4s ease-in-out; /* Transición suave */
+  height: 0;
+  overflow: hidden;
+}
+
+.team-member:hover .social-container {
+  opacity: 1; /* Totalmente visible */
+  transform: translateY(0); /* Vuelve a posición normal */
+  height: auto; /* Muestra el espacio */
+  margin-top: 15px; /* Ajusta según necesidad */
+}
 
 
 
+
+.resaltado {
+  background: linear-gradient(90deg, #fff200 0%, #fff645 100%);
+  background-size: 0% 100%;
+  background-repeat: no-repeat;
+  transition: background-size 2s ease;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+.resaltado.visible {
+  background-size: 100% 100%;
+  color: #000000;
+}
 ul > li {
   color:blue;
 }
@@ -867,4 +895,41 @@ ul > li {
   color: #000000;
   font-size: 30px;
   font-weight: bold;
+}
+
+
+.signature-text {
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  color: #fff;
+}
+
+.tecbit-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.tecbit-link:hover {
+  color: #4fc3f7;
+  text-decoration: underline;
+}
+
+.heart {
+  color: #ff4081;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.3); }
+  100% { transform: scale(1); }
+}
+
+.signature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
 }
